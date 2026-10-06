@@ -1,0 +1,24 @@
+<!-- noprotect -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Chess</h1>
+  <div id="status"></div>
+  <div id="chessboard"></div>
+  <button id="reset-btn" class="reset-btn">Reset Game</button>
+  <button id="flip-btn" class="flip-btn">Flip Board</button>
+  <div id="promotion" class="hidden">
+    <span>Promote pawn to:</span>
+    <button data-piece="q">Queen</button>
+    <button data-piece="r">Rook</button>
+    <button data-piece="b">Bishop</button>
+    <button data-piece="n">Knight</button>
+  </div>
+  <div id="promotion-menu" class="hidden"></div>
+  <script src="sketch.js"></script>
+</body>
+</html>
